@@ -884,7 +884,7 @@ case 'play':
 if (!isRG) return reply(`${NotRG}`)
 if (args.length < 1) return reply(`Cade o Nome Da Musica Mano?? \nExemplo: ${prefix}play rei lacoste`)
 reply(enviar.espere)
-anu = await fetchJson(`https://api-team-of-hero.herokuapp.com/api/download/ytmp3?apikey=apiteam&url=`)
+anu = await fetchJson(`https://www.luc4rio-rest-api.tk/api/social/play/audio?video=Bot%20Whatsapp%20Termux%20Traduzido`)
 let resultadoplay = `
 🍀 a Musica「 ${q} 」Foi Encontrada Com Sucesso! 🍀
 

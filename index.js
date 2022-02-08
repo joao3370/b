@@ -880,7 +880,7 @@ break
 
 // ==========/ P l a y s \========== \\
 
-case 'play':
+case 'play2':
 if (!isRG) return reply(`${NotRG}`)
 if (args.length < 1) return reply(`Cade o Nome Da Musica Mano?? \nExemplo: ${prefix}play rei lacoste`)
 reply(enviar.espere)
@@ -950,7 +950,7 @@ break
 
 //=====================================\\
 
-case 'play2':
+case 'play':
 if (!isRG) return reply(`${NotRG}`)
 if (args.length < 1) return reply(`Cade o Nome Da Musica Mano?? \nExemplo: ${prefix}play2 rei lacoste`)
 play2txt = args.join(' ')

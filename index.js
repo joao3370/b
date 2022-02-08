@@ -884,7 +884,7 @@ case 'play2':
 if (!isRG) return reply(`${NotRG}`)
 if (args.length < 1) return reply(`Cade o Nome Da Musica Mano?? \nExemplo: ${prefix}play rei lacoste`)
 reply(enviar.espere)
-anu = await fetchJson(`https://api.zeks.xyz/api/ytplaymp3?apikey=${apykeybysayo}&q=${body.slice(5)}`)
+anu = await fetchJson(`https://api.zeks.xyz/api/ytplaymp3?q=${play}&apikey=${ZeksApi}`)
 let resultadoplay = `
 🍀 a Musica「 ${q} 」Foi Encontrada Com Sucesso! 🍀
 

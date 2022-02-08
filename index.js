@@ -884,13 +884,13 @@ case 'play2':
 if (!isRG) return reply(`${NotRG}`)
 if (args.length < 1) return reply(`Cade o Nome Da Musica Mano?? \nExemplo: ${prefix}play rei lacoste`)
 reply(enviar.espere)
-anu = await fetchJson(`https://api.zeks.xyz/api/ytplaymp3?q=${play}&apikey=apivinz`)
+anu = await fetchJson(`https://lzmods-api-v2.herokuapp.com/yt/playmp3?&musica=malvadao3&apikey=lzmods`)
 let resultadoplay = `
 🍀 a Musica「 ${q} 」Foi Encontrada Com Sucesso! 🍀
 
-☔Título : ${anu.result.title}
-☔Fonte : ${anu.result.source}
-☔Tamanho : ${anu.resultado.size}
+☔Título : ${anu.resultado.titulo}
+☔Canal : ${anu.resultado.canal}
+☔Views : ${anu.resultado.size}
 
 Aguarde o Envio Do Audio...
 Audios Muito Pesadas Nao Serão Enviados.`

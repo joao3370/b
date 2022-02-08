@@ -888,9 +888,9 @@ anu = await fetchJson(`https://www.luc4rio-rest-api.tk/api/social/play/audio?vid
 let resultadoplay = `
 🍀 a Musica「 ${q} 」Foi Encontrada Com Sucesso! 🍀
 
-☔Título : ${anu.result.title}
-☔Canal : ${anu.result.channel}
-☔Views : ${anu.result.views}
+☔Título : ${anu.resultado.titulo}
+☔Canal : ${anu.resultado.canal}
+☔Views : ${anu.resultado.views}
 
 Aguarde o Envio Do Audio...
 Audios Muito Pesadas Nao Serão Enviados.`

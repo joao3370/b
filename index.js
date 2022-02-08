@@ -955,7 +955,7 @@ if (!isRG) return reply(`${NotRG}`)
 if (args.length < 1) return reply(`Cade o Nome Da Musica Mano?? \nExemplo: ${prefix}play2 rei lacoste`)
 play2txt = args.join(' ')
 reply(enviar.espere)
-anu = await fetchJson(`https://api-team-of-hero.herokuapp.com/api/yt/playmp3?query=${play2txt}&apikey=apiteam`)
+anu = await fetchJson(`https://lzmods-api-v2.herokuapp.com/yt/playmp3?&musica=${q}&apikey=lzmods`)
 let resultado3 = `
 💈 Musica Encontrada Com Sucesso! 💈
 

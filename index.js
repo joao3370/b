@@ -884,13 +884,9 @@ case 'play':
 if (!isRG) return reply(`${NotRG}`)
 if (args.length < 1) return reply(`Cade o Nome Da Musica Mano?? \nExemplo: ${prefix}play rei lacoste`)
 reply(enviar.espere)
-anu = await fetchJson(`https://www.luc4rio-rest-api.tk/api/social/play/audio?video=Bot%20Whatsapp%20Termux%20Traduzido`)
+anu = await fetchJson(`https://api.zeks.xyz/api/ytplaymp3?q=${play}&apikey=apivinz`)
 let resultadoplay = `
-🍀 a Musica「 ${q} 」Foi Encontrada Com Sucesso! 🍀
-
-☔Título : ${anu.resultado.titulo}
-☔Canal : ${anu.resultado.canal}
-☔Views : ${anu.resultado.views}
+infomp3 = `*❗MUSÍCA ENCONTRADA!!!❗*\n\ntitulo : ${anu.result.title}\nfonte : ${anu.result.source}\ntamanho : ${anu.result.size}`
 
 Aguarde o Envio Do Audio...
 Audios Muito Pesadas Nao Serão Enviados.`

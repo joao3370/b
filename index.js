@@ -886,7 +886,11 @@ if (args.length < 1) return reply(`Cade o Nome Da Musica Mano?? \nExemplo: ${pre
 reply(enviar.espere)
 anu = await fetchJson(`https://api.zeks.xyz/api/ytplaymp3?q=${play}&apikey=apivinz`)
 let resultadoplay = `
-infomp3 = `*❗MUSÍCA ENCONTRADA!!!❗*\n\ntitulo : ${anu.result.title}\nfonte : ${anu.result.source}\ntamanho : ${anu.result.size}`
+🍀 a Musica「 ${q} 」Foi Encontrada Com Sucesso! 🍀
+
+☔Título : ${anu.result.title}
+☔Fonte : ${anu.result.source}
+☔Tamanho : ${anu.resultado.size}
 
 Aguarde o Envio Do Audio...
 Audios Muito Pesadas Nao Serão Enviados.`

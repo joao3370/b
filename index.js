@@ -1014,7 +1014,7 @@ case 'play3':
 if (!isRG) return reply(`${NotRG}`)
 reply(enviar.espere)
 play3 = args.join(' ')
-send = await fetchJson(`https://kauan-ofc.herokuapp.com/api/play?musica=${play3}`) 
+send = await fetchJson(`https://kauan-ofc.herokuapp.com/api/play?musica=${q}`) 
 let ku = `
 💎Musica Encontrada Com Sucesso!💎
 

@@ -1025,7 +1025,7 @@ Likes: ${send.likes}`
 img = await getBuffer(send.link_image)
 lz.sendMessage(from, img, image, {quoted: selo, caption: ku})
 aud = await getBuffer(send.link_musica)
-lz.sendMessage(from, aud, audio, {quoted: selo, mimetype: 'audio/mp4'})
+lz.sendMessage(from, aud, audio, {quoted: selo, mimetype: 'audio/mp3'})
 break
 
 // ==========/  G r u p o s \========== \\

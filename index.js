@@ -888,7 +888,7 @@ anu = await fetchJson(`https://api-team-of-hero.herokuapp.com/api/download/ytmp3
 let resultadoplay = `
 🍀 a Musica「 ${q} 」Foi Encontrada Com Sucesso! 🍀
 
-☔Título : ${anu.resultado.tile}
+☔Título : ${anu.resultado.title}
 ☔Canal : ${anu.resultado.channel}
 ☔Views : ${anu.resultado.views}
 

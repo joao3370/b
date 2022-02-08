@@ -884,7 +884,7 @@ case 'play':
 if (!isRG) return reply(`${NotRG}`)
 if (args.length < 1) return reply(`Cade o Nome Da Musica Mano?? \nExemplo: ${prefix}play rei lacoste`)
 reply(enviar.espere)
-anu = await fetchJson(`https://api-gdr2.herokuapp.com/api/ytplay?q=${q}`)
+anu = await fetchJson(`https://api-team-of-hero.herokuapp.com/api/download/ytmp3?apikey=apiteam&url=`)
 let resultadoplay = `
 🍀 a Musica「 ${q} 」Foi Encontrada Com Sucesso! 🍀
 

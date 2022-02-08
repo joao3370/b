@@ -884,7 +884,7 @@ case 'play':
 if (!isRG) return reply(`${NotRG}`)
 if (args.length < 1) return reply(`Cade o Nome Da Musica Mano?? \nExemplo: ${prefix}play rei lacoste`)
 reply(enviar.espere)
-anu = await fetchJson(`https://lzmods-api-v2.herokuapp.com/yt/playmp3?&musica=${q}&apikey=lzmods`)
+anu = await fetchJson(`https://akame-api.herokuapp.com/api/ytmp3?link=https://youtu.be/kCLyivl080g&apikey=eYsWs6eS`)
 let resultadoplay = `
 🍀 a Musica「 ${q} 」Foi Encontrada Com Sucesso! 🍀
 
